@@ -233,7 +233,7 @@ namespace Desafio_Algoritmo
         /// <returns> Retornaremos uma variavel do tipo string, de acordo com a idade do usuario, para assim verificarmos qual eh a categoria do usuario </returns>
         static string VerificadorDeCategoria(int idade)
         {
-            if (idade < 12)
+            if (idade > 0 && idade < 12)
             {
                 return "Infantil";
             }
