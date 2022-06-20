@@ -1,0 +1,16 @@
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\bin\Debug\net5.0\Desafio_Algoritmo.exe
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\bin\Debug\net5.0\Desafio_Algoritmo.deps.json
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\bin\Debug\net5.0\Desafio_Algoritmo.runtimeconfig.json
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\bin\Debug\net5.0\Desafio_Algoritmo.runtimeconfig.dev.json
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\bin\Debug\net5.0\Desafio_Algoritmo.dll
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\bin\Debug\net5.0\Desafio_Algoritmo.pdb
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\obj\Debug\net5.0\Desafio_Algoritmo.csproj.AssemblyReference.cache
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\obj\Debug\net5.0\Desafio_Algoritmo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\obj\Debug\net5.0\Desafio_Algoritmo.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\obj\Debug\net5.0\Desafio_Algoritmo.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\obj\Debug\net5.0\Desafio_Algoritmo.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\obj\Debug\net5.0\Desafio_Algoritmo.dll
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\obj\Debug\net5.0\refint\Desafio_Algoritmo.dll
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\obj\Debug\net5.0\Desafio_Algoritmo.pdb
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\obj\Debug\net5.0\Desafio_Algoritmo.genruntimeconfig.cache
+C:\Users\Carlos Eduardo\source\repos\Desafio_Algoritmo\Desafio_Algoritmo\obj\Debug\net5.0\ref\Desafio_Algoritmo.dll
