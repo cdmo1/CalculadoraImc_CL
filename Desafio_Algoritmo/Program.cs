@@ -169,22 +169,23 @@ namespace Desafio_Algoritmo
             string aux;
             while (verificador)
             {
-                    Console.Write("Peso: digite o seu peso em quilogramas, com a separacao de quilos e gramas usando ponto ou virgula. Por exemplo: 80,5 \n");
+                Console.Write("Peso: digite o seu peso com a separacao de quilos e gramas usando ponto ou virgula. Por exemplo: 80,5 \n");
                 aux = Console.ReadLine();
-                    // Converte o valor digitado pelo usuário para double com ponto ou vírgula, aceita tanto ponto ou virgula
-                    if (double.TryParse(aux.Replace(",", "."), NumberStyles.Number, CultureInfo.InvariantCulture, out double pes))
+                // Converte o valor digitado pelo usuário para double com ponto ou vírgula, aceita tanto ponto ou virgula
+                if (double.TryParse(aux.Replace(",", "."), NumberStyles.Number, CultureInfo.InvariantCulture, out double pes))
+                {
+                    //verificacao se numero digitado pelo usuario eh valido ou nao.
+                    if (pes < 0 || pes == 0 || pes == (int)pes)
                     {
-                        if (pes > 0)
-                        {
-                            Console.WriteLine("Por gentileza, digite a idade em anos, e com numeros inteiros maiores que zero ");
-                            verificador = false;
-                        }
-                        else
-                        {
-                            Console.WriteLine("Insercao invalida!");
-                        }
+                        Console.WriteLine("Insercao invalida, pois tu digitaste diferentemente das especififacoes!");
+                        verificador = true;
                     }
-                    peso = pes;
+                    else
+                    {
+                        verificador = false;
+                    }
+                }
+                peso = pes;
             }
             return peso;
         }
@@ -199,11 +200,12 @@ namespace Desafio_Algoritmo
             string aux;
             while (verificador)//enquanto o verificador for verdadeiro, executar o bloco
             {
-                Console.Write("Altura: Por gentileza, digite em metros sua altura. Por exemplo: 1,80. \n");
+                Console.Write("Altura: Por gentileza, primeiramente digite sua altura em metros, posteriormente os centimetros (faça essa separação ultilizando ponto ou virgula). Por exemplo: 1,80. \n");
                 aux = Console.ReadLine();//pega o valor digitado pelo usuario, faz a leitura, e guarda na variavel auxiliar.
                 // Converte o valor digitado pelo usuário para double com ponto ou vírgula, aceita tanto ponto ou virgula
                 if (double.TryParse(aux.Replace(",", "."), NumberStyles.Number, CultureInfo.InvariantCulture, out double alt)){
-                   if (alt > 0 && verificador == true){
+                    //verifica se numero eh valido ou nao
+                   if (alt > 0 && verificador == true &&  alt !=(int)alt){
                             altura = alt;
                             verificador = false;//para um valor valido
                    }
